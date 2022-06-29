@@ -1,0 +1,173 @@
+/* @media screen and (max-width: 640px) {
+  body {
+    orientation: portrait;}
+}
+@media screen and (min-width: 1280px) {
+  body {
+    orientation: landscape;}
+}
+@media screen and (min-width: 640px) and (max-width: 1280px) {
+  body {
+    orientation: landscape;}  */
+
+header {
+  background-color: rgb(250, 79, 79);
+  color: black;
+  width: 100%;
+  margin-top: 1px;
+  padding: 30px;
+  left: 0%;
+}
+
+.nav {
+  background-color: rgb(187, 114, 114);
+  color: black;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 20px;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(111, 111, 243);
+  width: 100%;
+}
+.fa-regular {
+  color: black;
+}
+.animate_animated {
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 300%;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+  padding-bottom: 10px;
+}
+h2 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 200%;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+  text-decoration: underline;
+}
+p {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  font-style: italic;
+  font-weight: 200px;
+  color: black;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+form {
+  background-color: rgb(111, 111, 243);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-flexbox;
+  border-color: black;
+  border-width: 10px;
+  color: black;
+}
+input[type="text"] {
+  font-size: 12pt;
+  max-lines: 1;
+  width: 30%;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  border-color: black;
+}
+input[type="email"] {
+  font-size: 12pt;
+  max-lines: 1;
+  width: 30%;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  border-color: black;
+}
+
+input [type="radio"] {
+  initial-value: Capital Federal;
+  border-radius: 10px;
+  color: white;
+  font-size: 12pt;
+  padding: 10px;
+  border-color: black;
+}
+textarea {
+  border-color: black;
+  width: 30%;
+  grid-row: 40;
+  grid-column: 10;
+  padding: 30px;
+  margin-bottom: 15px;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 15 pt;
+  font-style: normal;
+  font-weight: 300;
+  color: black;
+  margin-left: 40px;
+  margin-bottom: 0%;
+}
+input[type="checkbox"] {
+  box-sizing: border-box;
+  border-width: 10px;
+  initial-value: initial;
+  font-size: 12pt;
+  padding: 30px;
+  margin-bottom: 15px;
+}
+input[type="Submit"] {
+  background-color: green;
+  color: black;
+  height: 5%;
+  width: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  padding: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+input[type="Reset"] {
+  background-color: grey;
+  color: black;
+  height: 5%;
+  width: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  padding: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+footer {
+  background-color: rgb(250, 79, 79);
+  color: black;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 30px;
+  text-decoration: none;
+}
+
+.redsoc {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}

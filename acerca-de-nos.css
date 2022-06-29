@@ -1,0 +1,121 @@
+/* @media screen and (max-width: 640px) {
+  body {
+    orientation: portrait;}
+}
+@media screen and (min-width: 1280px) {
+  body {
+    orientation: landscape;}
+}
+@media screen and (min-width: 640px) and (max-width: 1280px) {
+  body {
+    orientation: landscape;}  */
+
+header {
+  background-color: rgb(250, 79, 79);
+  color: black;
+  width: 100%;
+  margin-top: 1px;
+  padding: 30px;
+  left: 0%;
+}
+
+.nav {
+  background-color: rgb(187, 114, 114);
+  color: black;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 20px;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(111, 111, 243);
+  width: 100%;
+}
+.fa-regular {
+  color: black;
+}
+.animate_animated {
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 300%;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+}
+img {
+  margin-left: 140px;
+  image-orientation: center;
+  width: 40%;
+  height: 40%;
+  padding-left: 200px;
+  padding-bottom: 20px;
+  margin-left: 15%;
+}
+h2 {
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 35 px;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+  margin-left: 15px;
+}
+
+textarea {
+  width: 80%;
+  height: 15%;
+  grid-row: 100;
+  grid-column: 10;
+  font-family: cursive;
+  font-size: 16pt;
+  margin-left: 15px;
+}
+
+p {
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16pt;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+  margin-left: 15px;
+}
+.ubicación {
+  color: black;
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16pt;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+iframe {
+  width: 35%;
+  height: 35%;
+  margin-left: 30px;
+  padding-bottom: 10px;
+}
+footer {
+  background-color: rgb(250, 79, 79);
+  color: black;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 30px;
+  text-decoration: none;
+}
+
+.redsoc {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
